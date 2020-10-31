@@ -1,0 +1,30 @@
+header#main-header{
+    height: 65px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    color:#4FD1C5;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 100%;
+}
+
+@media(max-width: 1024px){
+    #example-navbar-danger{
+        float: right;
+        text-align: right;
+        width: auto;
+        max-width: 100%;
+    }
+    .logo-area{
+        width: 100%;
+    }
+    ul{
+        width: 100%;
+    }
+
+}
