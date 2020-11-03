@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 
 import './styles.css';
 import Header from '../components/Header'
+import Footer from '../components/Footer';
 
 
 const Home = () => {
@@ -23,6 +24,7 @@ const Home = () => {
                  </Link>                 
              </main>
            </div>
+           <Footer/>
        </div>
     );
 }
