@@ -1,10 +1,18 @@
 #page-home {
-    height: 100vh;
-  
-    background: url('../../assets/home-background.svg') no-repeat 750px bottom;
+    height: 80vh;
+    
+    background: url('../../assets/right-side.svg') no-repeat 700px bottom;
   }
-  
-  #page-home .content {
+ 
+.home{
+  background-position: center;
+  background-size: cover;
+  background: url('../../assets/background.svg');
+  height: 100vh;
+  padding:0;
+  margin: 0;
+}
+#page-home .content {
     width: 100%;
     height: 100%;
     max-width: 1100px;

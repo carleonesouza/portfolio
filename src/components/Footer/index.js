@@ -12,8 +12,7 @@ const Footer = () => {
         Created by{" "}
         <a
           className="border-b text-blue-500"
-          href="https://twitter.com/carleonepereira"
-        >
+          href="https://twitter.com/carleonepereira">
           @CarleonePereira
         </a>
       </p>

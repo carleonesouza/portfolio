@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from 'react-router-dom'
 import {FiMenu} from 'react-icons/fi';
 import { IconContext } from "react-icons/lib";
-import logo from "../../../assets/favicon.svg";
+import logo from "../../assets/favicon.svg";
 
 import "./styles.css";
 
