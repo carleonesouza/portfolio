@@ -1,50 +1,83 @@
-import React from 'react';
+import React from "react";
+import { FiLogIn } from "react-icons/fi";
+import { Link } from "react-router-dom";
 
+import "./styles.css";
 
 const Works = () => {
-    return(       
-        <section className="px-3">
-            <div className="text-4xl sm:text-5xl text-center my-10">What type of food do you like?</div>
+  return (
+    <section className="px-3" id="page-work">
+      <div className="text-2xl sm:text-3xl text-center xl:mt-20 pb-6 md:m-4">
+        Freelance Web Developer based in Nova Lima, Minas Gerais-Brazil.
+        <br /> Front-End and Back-End experience.
+      </div>
 
-            <div className="grid md:grid-cols-3 gap-8 m-5 max-w-5xl m-auto">
-                <div className="bg-white">
-                <img src="https://via.placeholder.com/150" alt="" className="w-full h-48 sm:h-56 object-cover" />
-
-                <div className="px-10 py-6 mb-10 text-center">
-                    <div className="text-2xl font-bold text-purple-500 mb-4">MALAY</div>
-                    <span className="text-sm">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate tempore eligendi magnam distinctio molestias. Incidunt at consequuntur consequatur 
-                    officiis repudiandae! Culpa cum vel tenetur itaque eius provident voluptatum similique impedit?
-                    </span>
-                </div>
-
-                <button className="w-full text-lg h-16 text-white font-extrabold bg-purple-500">VIEW RECIPES</button>
-                </div>
-
-                <div className="bg-white">
-                <img src="https://via.placeholder.com/150" alt="" className="w-full h-48 sm:h-56 object-cover" />
-                <div className="px-10 py-6 mb-10 text-center">
-                    <div className="text-2xl font-bold text-green-500 mb-4">CHINESE</div>
-                    <span className="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate tempore eligendi magnam distinctio molestias. Incidunt 
-                    at consequuntur consequatur officiis repudiandae! Culpa cum vel tenetur itaque eius provident voluptatum similique impedit?</span>
-                </div>
-                <button className="w-full text-lg h-16 text-white font-extrabold bg-green-500">VIEW RECIPES</button>
-                </div>
-
-                <div className="bg-white">
-                <img src="https://via.placeholder.com/150" alt="" className="w-full h-48 sm:h-56 object-cover" />
-                <div className="px-10 py-6 mb-10 text-center">
-                    <div className="text-2xl font-bold text-blue-500 mb-4">INDIAN</div>
-
-                    <span className="text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate tempore eligendi magnam distinctio molestias. Incidunt
-                    at consequuntur consequatur officiis repudiandae! Culpa cum vel tenetur itaque eius provident voluptatum similique impedit?</span>
-                </div>
-
-                <button className="w-full text-lg h-16 text-white font-extrabold bg-blue-500">VIEW RECIPES</button>
-                </div>
+      <div className="gap-4 m-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-6 ">
+        <div className="bg-white container sm:mb-6">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            className="image rounded"/>
+          <div className="overlay rounded content">
+            <div className="text-center custom">
+              <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
+              <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
             </div>
-            </section>
-    );
-}
+
+            <div className="text-center vertical-center">
+            <Link to="/create-point">
+              <span>
+                <FiLogIn />
+              </span>
+              <strong>View</strong>
+            </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white container">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            className="image rounded"/>
+          <div className="overlay rounded">
+            <div className="text-center custom">
+              <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
+              <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
+            </div>
+
+            <div className="text-center items-end">
+              <button className="btn-primary rounded">VIEW RECIPES</button>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white container">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            className="image rounded"/>
+          <div className="overlay rounded">
+            <div className="text-center custom">
+              <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
+              <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
+            </div>
+
+            <div className="text-center items-end">
+              <button className="btn-primary rounded">
+              <span>
+                <FiLogIn />
+              </span>
+              <strong>View</strong>
+              </button>
+            </div>
+          </div>
+        </div>
+
+      
+      </div>
+    </section>
+  );
+};
 
 export default Works;

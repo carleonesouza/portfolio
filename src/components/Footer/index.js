@@ -16,7 +16,7 @@ const Footer = () => {
           @CarleonePereira
         </a>
       </p>
-      <div class="flex justify-center items-center">
+      <div className="flex justify-center items-center">
         <div className="flex lg:flex-shrink-0 lg:mt-0">
           <Link to="" className="p-5">
             <span>
