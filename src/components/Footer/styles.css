@@ -1,0 +1,9 @@
+.footer{
+    height: 20vh;
+    padding-top: 10px;
+    background-color: #000000;
+}
+.social-footer a :hover{
+    background-color: #ffffff;
+    border-radius: 5px;
+}

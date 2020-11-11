@@ -4,9 +4,11 @@ import { FaStackOverflow, FaInstagram } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { IconContext } from "react-icons/lib";
 
+import './styles.css'
+
 const Footer = () => {
   return (
-    <div className="mb-10">
+    <div className="footer">
       <p className="text-center p-4 text-gray-600 mt-10">
         {" "}
         Created by{" "}
@@ -16,7 +18,7 @@ const Footer = () => {
           @CarleonePereira
         </a>
       </p>
-      <div className="flex justify-center items-center">
+      <div className="flex justify-center items-center social-footer">
         <div className="flex lg:flex-shrink-0 lg:mt-0">
           <Link to="" className="p-5">
             <span>

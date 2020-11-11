@@ -1,9 +1,4 @@
-#page-home {
-    height: 80vh;
-    
-    background: url('../../assets/right-side.svg') no-repeat 700px bottom;
-  }
- 
+
 .home{
   background-position: center;
   background-size: cover;
@@ -61,12 +56,12 @@
   }
   
   #page-home .content main a span {
-    display: block;
+    
     background: rgba(0, 0, 0, 0.08);
     width: 72px;
     height: 72px;
   
-    display: flex;
+     display: flex;
     align-items: center;
     justify-content: center;
     transition: background-color 0.2s;
@@ -108,6 +103,9 @@
   
     #page-home .content main p {
       font-size: 24px;
+    }
+    .side{
+      display: none;
     }
   }
   

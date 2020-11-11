@@ -6,7 +6,7 @@ import "./styles.css";
 
 const Works = () => {
   return (
-    <section className="px-3" id="page-work">
+    <section className="px-8 " id="page-work">
       <div className="text-2xl sm:text-3xl text-center xl:mt-20 pb-6 md:m-4">
         Freelance Web Developer based in Nova Lima, Minas Gerais-Brazil.
         <br /> Front-End and Back-End experience.
@@ -17,64 +17,140 @@ const Works = () => {
           <img
             src="https://via.placeholder.com/150"
             alt="Avatar"
-            className="image rounded"/>
-          <div className="overlay rounded content">
+            className="image rounded"
+          />
+          <div className="overlay content">
             <div className="text-center custom">
               <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
               <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
             </div>
 
-            <div className="text-center vertical-center">
-            <Link to="/create-point">
-              <span>
-                <FiLogIn />
-              </span>
-              <strong>View</strong>
-            </Link>
+            <div className="text-center">
+              <Link to="/create-point">
+                <span>
+                  <FiLogIn />
+                </span>
+                <strong>View</strong>
+              </Link>
             </div>
           </div>
         </div>
 
-        <div className="bg-white container">
+        <div className="bg-white container sm:mb-6">
           <img
             src="https://via.placeholder.com/150"
             alt="Avatar"
-            className="image rounded"/>
-          <div className="overlay rounded">
+            className="image rounded"
+          />
+          <div className="overlay content">
             <div className="text-center custom">
               <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
               <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
             </div>
 
-            <div className="text-center items-end">
-              <button className="btn-primary rounded">VIEW RECIPES</button>
+            <div className="text-center">
+              <Link to="/create-point">
+                <span>
+                  <FiLogIn />
+                </span>
+                <strong>View</strong>
+              </Link>
             </div>
           </div>
         </div>
 
-        <div className="bg-white container">
+        <div className="bg-white container sm:mb-6">
           <img
             src="https://via.placeholder.com/150"
             alt="Avatar"
-            className="image rounded"/>
-          <div className="overlay rounded">
+            className="image rounded"
+          />
+          <div className="overlay content">
             <div className="text-center custom">
               <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
               <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
             </div>
 
-            <div className="text-center items-end">
-              <button className="btn-primary rounded">
-              <span>
-                <FiLogIn />
-              </span>
-              <strong>View</strong>
-              </button>
+            <div className="text-center">
+              <Link to="/create-point">
+                <span>
+                  <FiLogIn />
+                </span>
+                <strong>View</strong>
+              </Link>
             </div>
           </div>
         </div>
 
-      
+        <div className="bg-white container sm:mb-6">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            className="image rounded"
+          />
+          <div className="overlay content">
+            <div className="text-center custom">
+              <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
+              <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
+            </div>
+
+            <div className="text-center">
+              <Link to="/create-point">
+                <span>
+                  <FiLogIn />
+                </span>
+                <strong>View</strong>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white container sm:mb-6">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            className="image rounded"
+          />
+          <div className="overlay content">
+            <div className="text-center custom">
+              <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
+              <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
+            </div>
+
+            <div className="text-center">
+              <Link to="/create-point">
+                <span>
+                  <FiLogIn />
+                </span>
+                <strong>View</strong>
+              </Link>
+            </div>
+          </div>
+        </div>
+
+        <div className="bg-white container sm:mb-6">
+          <img
+            src="https://via.placeholder.com/150"
+            alt="Avatar"
+            className="image rounded"
+          />
+          <div className="overlay content">
+            <div className="text-center custom">
+              <h3 className="font-mono ext-lg text-blue-400 mb-4">CHINESE</h3>
+              <p className="text-sm text-center">Lorem ipsum dolor, sit amet</p>
+            </div>
+
+            <div className="text-center">
+              <Link to="/create-point">
+                <span>
+                  <FiLogIn />
+                </span>
+                <strong>View</strong>
+              </Link>
+            </div>
+          </div>
+        </div>
+
       </div>
     </section>
   );

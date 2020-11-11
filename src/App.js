@@ -6,6 +6,8 @@ import "./styles.css";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Works from "./pages/Works";
+import Blog from './pages/Blog';
+import Contact from './pages/Contact';
 
 function App() {
   useEffect(() => {
@@ -14,15 +16,17 @@ function App() {
   });
 
   return (
-    <div>
+    <>
       <div className="font-sans bg-white flex flex-col min-h-screen w-full">
         <div>
           <Home/>
           <Works/>
+          <Blog/>
+          <Contact/>
           <Footer/>
         </div>
       </div>
-    </div>
+    </>
   );
 }
 
