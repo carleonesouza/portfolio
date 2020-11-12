@@ -8,6 +8,7 @@ import Footer from "./components/Footer";
 import Works from "./pages/Works";
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Carousel from './pages/Carousel';
 
 function App() {
   useEffect(() => {
@@ -23,6 +24,7 @@ function App() {
           <Works/>
           <Blog/>
           <Contact/>
+          <Carousel/>
           <Footer/>
         </div>
       </div>

@@ -1,0 +1,19 @@
+.carousel-container{
+  width: 50%;
+ 
+}
+.carousel-item{
+  padding: 10px;
+
+}
+
+@media(max-with: 900px){
+  .carousel-container{
+    width: 100%;
+   
+  }
+  .carousel-item{
+    padding: 10px;
+  
+  }
+}

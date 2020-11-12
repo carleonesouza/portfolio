@@ -1,45 +1,26 @@
 
  .sou-text{
-   float: left;
-   width: 50%;
-   padding: 0;
-   margin-left: 50px;
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin-left: 50px;
 
+}
+ 
+ @media(max-width: 900px) {
+  
+   .side{
+     display: none;
+   }
+
+   .sou-text{
+ 
+     width: 100%;
+   }
+
+
+   .content{
+     margin-bottom: 15px;
+   }
  }
-  
-  @media(max-width: 900px) {
-    #page-home .content {
-      align-items: center;
-      text-align: center;
-    }
-  
-    #page-home .content header {
-      margin: 48px auto 0;
-    }
-  
-    #page-home .content main {
-      align-items: center;
-    }
-  
-    #page-home .content main h1 {
-      font-size: 42px;
-    }
-  
-    #page-home .content main p {
-      font-size: 24px;
-    }
-    .side{
-      display: none;
-    }
-
-    .sou-text{
-  
-      width: 100%;
-    }
-
-
-    .content{
-      margin-bottom: 15px;
-    }
-  }
-  
+ 

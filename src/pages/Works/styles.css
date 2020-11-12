@@ -28,27 +28,15 @@
 
   .custom{
     margin-top: 100px;
-    height: 10vh;
+    margin-bottom: 15px;
+    height: auto;
   }
   
   .container:hover .overlay {
     opacity: 1;
   }
   
-  .btn-primary{
-    background-color: #06BC9B;
-    background-image: -webkit-linear-gradient(left,#06BC9B,#1ba49c);
-    font-size: 18px;
-    padding: 15px 20px;
-    width: 90px;
-    border: 0 none;
-    line-height: 20px;
-    text-align: left;
-    color: #fff!important;
-  }
-
-
-  
+   
   #page-work .container .content  a {
    
     width: 60%;

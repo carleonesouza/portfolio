@@ -11,8 +11,8 @@ const Home = () => {
     AOS.init();
   });
   return (
-    <div className="content">
-      <div className="container mx-auto">
+    
+      <div className="w-full bg-gray-200 container mx-auto">
         <Header />
         <div className="flex justify-items-auto">
           <div className="w-full flex">
@@ -59,7 +59,7 @@ const Home = () => {
           </div>
         </div>
       </div>
-    </div>
+   
   );
 };
 
