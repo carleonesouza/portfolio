@@ -2,6 +2,8 @@ import React from "react";
 import { FiLogIn } from "react-icons/fi";
 import { Link } from "react-router-dom";
 
+
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 
@@ -9,7 +11,8 @@ import "./styles.css";
 
 import "./styles.css";
 
-const MCarousel = () => {
+const MCarousel = () => {   
+
     const responsive = {
         desktop: {
           breakpoint: { max: 3000, min: 1024 },
@@ -27,6 +30,9 @@ const MCarousel = () => {
           slidesToSlide: 1 // optional, default to 1.
         }
       };
+
+
+
       return (
         <section className="px-8 " id="page-work">
           <div className="text-2xl sm:text-3xl text-center xl:mt-20 pb-6 md:m-4">
@@ -34,8 +40,9 @@ const MCarousel = () => {
             <br /> Front-End and Back-End experience.
           </div>
     
-        
-          <Carousel swipeable={false}
+          <div className="items-center">
+           
+            <Carousel swipeable={false}
                     draggable={false}
                     responsive={responsive}              
                     infinite={true}
@@ -185,6 +192,9 @@ const MCarousel = () => {
               </div>
             </div>
             </Carousel>
+      
+          </div>
+         
       
         </section>
       );
