@@ -5,13 +5,13 @@ import MediumApi from '../../utils/MediumApi'
 import './styles.css'
 
 import Post from '../../components/Post'
+
 const Blog = () => {
   const [posts, setPots] = useState([])
   useEffect(() => {
       axios
       .get(MediumApi.baseUrl)
       .then((res) =>{
-          console.log(res.data.items);
           setPots(res.data.items);
       });
   },[]);

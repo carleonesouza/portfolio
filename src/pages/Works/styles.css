@@ -28,7 +28,7 @@
   }
 
   .custom{
-    margin-top: 70px;
+    margin-top: 50%;
     margin-bottom: 15px;
     height: auto;
   }
@@ -82,6 +82,29 @@
   #page-work .container .content  a:hover {
     background: #2FB86E;
   }
+
+.carousel-item{
+  padding: 10px;
+
+}
+
+@media(max-with: 900px){
+  .carousel-container{
+    width: 100vw;
+   
+  }
   
+}
+
+@media (max-width: 1024px){
+ul {
+  width: auto !important;
+  }
+
+.custom{
+      margin-top: 20%;
+    
+    }
+}
 
   
