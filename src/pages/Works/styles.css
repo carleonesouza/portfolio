@@ -26,9 +26,13 @@
     height: 100%;
     color: #fff;
   }
-
+ #page-work svg{
+   margin: 0;
+   padding: 0;
+ }
+  
   .custom{
-    margin-top: 50%;
+    margin-top: 20%;
     margin-bottom: 15px;
     height: auto;
   }

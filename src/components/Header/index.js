@@ -10,6 +10,10 @@ import "./styles.css";
 
 const Header = () => {   
    const [navbarOpen, setNavbarOpen] = React.useState(false);
+    const handleScroll = e => {
+    e.preventDefault();
+    window.scrollTo({top: 0, behavior: 'smooth'});
+  };
   return (
    <header>
      <nav className="w-full z-30 py-1 fixed bg-white shadow-lg border-b border-blue-400 navbar-expand-lg md:w-full">
@@ -32,7 +36,7 @@ const Header = () => {
           </div>
           <div  className={"lg:flex flex-grow  items-center " + (navbarOpen ? " flex" : " hidden")} id="example-navbar-danger">
             <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
-            <li><Link to='/' className="inline-block no-underline border-b-2 border-transparent hover:border-indigo-400 font-medium md:float-right text-lg py-2 px-4 lg:-ml-2">Home</Link></li>
+            <li><Link to='/app' onClick={handleScroll} className="inline-block no-underline border-b-2 border-transparent hover:border-indigo-400 font-medium md:float-right text-lg py-2 px-4 lg:-ml-2">Home</Link></li>
             <li><Link to="/works" className="inline-block no-underline border-b-2 border-transparent hover:border-indigo-400  font-medium text-lg py-2 px-4 lg:-ml-2">Works</Link></li>
             <li><Link to="/blog" className="inline-block no-underline border-b-2 border-transparent hover:border-indigo-400  font-medium text-lg py-2 px-4 lg:-ml-2">Blog</Link></li>
             <li><Link to="/contact" className="inline-block no-underline border-b-2 border-transparent hover:border-indigo-400 font-medium text-lg py-2 px-4 lg:-ml-2">Contact</Link></li>

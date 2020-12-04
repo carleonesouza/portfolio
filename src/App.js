@@ -1,13 +1,14 @@
 import React, { useEffect } from "react";
+import { Route, Switch } from 'react-router-dom';
 import AOS from "aos";
 import "aos/dist/aos.css";
 
 import "./styles.css";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
 import Works from "./pages/Works";
 import Blog from './pages/Blog';
 import Contact from './pages/Contact';
+import Layout from "./components/Layout";
 
 
 function App() {
@@ -17,17 +18,19 @@ function App() {
   });
 
   return (
-    <>
+    <Layout>
       <div className="font-sans bg-white flex flex-col min-h-screen w-full">
-        <div>
-          <Home/>
-          <Works/>
-          <Blog/>
-          <Contact/>
-          <Footer/>
+      <Switch>
+          <Route basepath ='/app'>
+            <Home path="/" />
+            <Works path="/works"/>
+            <Blog path="/blog"/>
+            <Contact path="/contact"/>                       
+          </Route>
+       </Switch>
         </div>
-      </div>
-    </>
+     
+      </Layout>
   );
 }
 

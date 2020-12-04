@@ -4,7 +4,7 @@ import "aos/dist/aos.css";
 
 import "./styles.css";
 import ImageBackground from '../../assets/background-home.jpeg';
-import Header from "../../components/Header";
+
 
 const Home = () => {
   useEffect(() => {
@@ -13,7 +13,6 @@ const Home = () => {
   return (
     
       <div className="w-full bg-gray-200 container mx-auto">
-        <Header />
         <div className="flex justify-items-auto">
           <div className="w-full flex">
             <div className="w-full h-auto bg-gray-400 hidden lg:block md:w-1/2 h-screen">
@@ -47,7 +46,7 @@ const Home = () => {
                   <div
                     className="description pr-20 pl-20 text-gray-700 text-sm"
                     data-aos="fade-right" >
-                    I live in Belo Horizonte, better know as "BEAGÁ", I'm
+                    I live in Nova Lima, next to "BEAGÁ", I'm
                     graduated in Sciencie Computer by the Federal Institute of
                     Education, Science and Technology of Bahia - Licenciado. I
                     love work with the web develope, there are thousands of
